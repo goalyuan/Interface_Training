@@ -18,7 +18,6 @@ def send_email(filename):
 
     sender = mail.sender  # 发送邮箱名
     receivers = ['gooyoon@163.com']  # 收件人
-
     message = MIMEMultipart('related')
 
     f = open(filename, 'rb')
