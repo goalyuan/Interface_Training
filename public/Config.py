@@ -1,6 +1,5 @@
 def url():
     url = 'http://httpbin.org/'
-    # url = 'https://www.baidu.com/'
     return url
 
 

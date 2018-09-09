@@ -67,6 +67,6 @@ class XLDatainof(object):
 
 if __name__ == "__main__":
     datainfo = XLDatainof(
-        '/Users/gaoyuan/PycharmProjects/Interface_Training/test_data/get_params_headers_test_data.xlsx')
+        '/Users/**/PycharmProjects/Interface_Training/test_data/get_params_headers_test_data.xlsx')
     alldata = datainfo.get_sheetinfo_by_name('TestData')
     print(alldata)

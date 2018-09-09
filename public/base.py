@@ -19,7 +19,7 @@ def get_response(url, Method, **DataALL):
 
 
 def get_data(testfile, sheetname):
-    datainfo = read_excel.XLDatainof('/Users/gaoyuan/PycharmProjects/Interface_Training/test_data/%s' % testfile)
+    datainfo = read_excel.XLDatainof('/Users/**/PycharmProjects/Interface_Training/test_data/%s' % testfile)
     Data = datainfo.get_sheetinfo_by_name(sheetname)
     return Data
 

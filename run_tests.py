@@ -12,7 +12,7 @@ from public import mail
 
 
 def send_email(filename):
-    mail_host = 'smtp.126.com'  # 邮箱服务smtp.126.com
+    mail_host = '***'  # 邮箱服务
     mail_user = mail.mail_user
     mail_pass = mail.mail_pass
 
