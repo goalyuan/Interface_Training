@@ -12,12 +12,12 @@ from public import mail
 
 
 def send_email(filename):
-    mail_host = 'smtp.126.com'
-    mail_user = mail.mail_user  # 邮箱名 '2837065966@qq.com'
-    mail_pass = mail.mail_pass  # 密码 ；'#￥%……'
+    mail_host = 'smtp.126.com'  # 邮箱服务smtp.126.com
+    mail_user = mail.mail_user
+    mail_pass = mail.mail_pass
 
     sender = mail.sender  # 发送邮箱名
-    receivers = ['gooyoon@163.com']  # 收件人
+    receivers = ['***']  # 收件人
     message = MIMEMultipart('related')
 
     f = open(filename, 'rb')
